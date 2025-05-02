@@ -1,0 +1,38 @@
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## Python Dependencies
+
+Before running the Python scripts, please install the required dependencies:
+
+- Python version: = 3.11.9
+
+### Python packages:
+- pandas version: = 2.2.2
+- numpy version: = 1.26.4
+- openpyxl version: = 3.1.4
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+## R Dependencies
+
+- R version: = 4.4.1
+- Bioconductor version: >=3.15
+
+### CRAN packages
+
+```r
+install.packages(c("tidyverse", "dplyr", "stringr", "ggplot2", "gridExtra"))
+```
+
+### Bioconductor packages
+
+```r
+if (!requireNamespace("BiocManager", quietly = TRUE))
+  install.packages("BiocManager")
+BiocManager::install(c("clusterProfiler", "AnnotationHub", "GOSemSim", "DOSE", "msigdbr", "org.Hs.eg.db"))
+```
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
